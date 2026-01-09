@@ -12,7 +12,7 @@ const Contact = () => {
             Start Your <span className="text-cyan-400">Digital Journey</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Ready to give your brand a digital aura? Send a message or chat with me directly on WhatsApp.
+            Ready to give your brand a digital aura? Send a message or chat with us directly on WhatsApp.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-cyan-400" />
               </div>
               <div>
-                <h4 className="text-lg font-semibold mb-1">Email Me</h4>
+                <h4 className="text-lg font-semibold mb-1">Email Us</h4>
                 <p className="text-gray-400">contactus@aura-dev.net</p>
               </div>
             </div>
@@ -74,9 +74,10 @@ const Contact = () => {
                 <select 
                   name="service"
                   required
+                  defaultValue="" // Fixes the 'selected' attribute error
                   className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 focus:border-cyan-400 outline-none transition-all text-white appearance-none cursor-pointer"
                 >
-                  <option value="" disabled selected className="bg-[#0a0a0a]">Select Service</option>
+                  <option value="" disabled className="bg-[#0a0a0a]">Select Service</option>
                   <option value="Web Development" className="bg-[#0a0a0a] text-white">Web Development</option>
                   <option value="UI/UX Design" className="bg-[#0a0a0a] text-white">UI/UX Design</option>
                   <option value="Full Stack App" className="bg-[#0a0a0a] text-white">Full Stack App</option>
@@ -90,7 +91,7 @@ const Contact = () => {
 
             <textarea 
               name="message"
-              placeholder="Tell me about your project..." 
+              placeholder="Tell us about your project..." 
               required
               rows={4}
               className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 focus:border-cyan-400 outline-none transition-all text-white resize-none placeholder:text-gray-500"
@@ -105,7 +106,7 @@ const Contact = () => {
               </button>
 
               <a 
-                href="https://wa.me/972545280906?text=Hi%20Aura%20Dev,%20I'm%20interested%20in%20a%20project!" 
+                href="https://wa.me/972545280906?text=Hi%20Aura%20Dev,%20we%20are%20interested%20in%20a%20project!" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-full py-4 bg-[#25D366]/10 text-[#25D366] border border-[#25D366]/20 font-bold rounded-xl flex items-center justify-center gap-2 hover:bg-[#25D366] hover:text-white transition-all transform active:scale-95"

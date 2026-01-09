@@ -11,7 +11,7 @@ const Portfolio = () => {
       link: "https://travel-updated-project.vercel.app/"
     },
     {
-      title: "MEI School Platform",
+      title: "MEEI School Platform",
       category: "Education / Web Design",
       description: "A comprehensive digital home for an educational institution, focusing on accessibility and clarity.",
       // Using a high-quality education/building image
@@ -36,7 +36,7 @@ const Portfolio = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
               Selected <span className="text-purple-500">Work</span>
             </h2>
-            <p className="text-gray-400">A glimpse into the digital solutions I've engineered.</p>
+            <p className="text-gray-400">A glimpse into the digital solutions we have engineered.</p>
           </div>
           <button className="text-cyan-400 font-semibold hover:underline transition-all">
             View all projects →

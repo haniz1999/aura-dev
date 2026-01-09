@@ -36,16 +36,16 @@ const Hero = () => {
         </h1>
 
         <p className="max-w-2xl text-lg md:text-xl text-gray-400 mb-10 leading-relaxed">
-          I build high-performance web applications and mobile experiences 
+          We build high-performance web applications and mobile experiences 
           where clean code meets exceptional design.
         </p>
 
         <div className="flex flex-col md:flex-row gap-4">
           <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-xl font-bold shadow-lg shadow-cyan-500/20 hover:scale-105 transition">
-            View My Projects
+            View Our Projects
           </button>
           <button className="px-8 py-4 bg-white/5 border border-white/10 rounded-xl font-bold backdrop-blur-md hover:bg-white/10 transition">
-            Contact Me
+            Contact Us
           </button>
         </div>
       </main>
