@@ -48,7 +48,7 @@ const Contact = () => {
             className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl space-y-4"
           >
             {/* Make sure to paste your key from web3forms.com here */}
-            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="access_key" value="ce8f995d-90c5-4a5a-82f7-e92bdaf0f71b" />
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <input 
