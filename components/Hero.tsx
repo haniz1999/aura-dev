@@ -17,9 +17,14 @@ const Hero = () => {
           <a href="#work" className="hover:text-cyan-400 transition">Work</a>
           <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
         </div>
-        <button className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-cyan-400 transition">
+        <a 
+          href="https://www.instagram.com/aura.dev.official/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-cyan-400 transition inline-block"
+        >
           Let's Build
-        </button>
+        </a>
       </nav>
 
       {/* Main Content */}
@@ -41,12 +46,18 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-4">
-          <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-xl font-bold shadow-lg shadow-cyan-500/20 hover:scale-105 transition">
+          <a 
+            href="#work" 
+            className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-xl font-bold shadow-lg shadow-cyan-500/20 hover:scale-105 transition text-center"
+          >
             View Our Projects
-          </button>
-          <button className="px-8 py-4 bg-white/5 border border-white/10 rounded-xl font-bold backdrop-blur-md hover:bg-white/10 transition">
+          </a>
+          <a 
+            href="#contact" 
+            className="px-8 py-4 bg-white/5 border border-white/10 rounded-xl font-bold backdrop-blur-md hover:bg-white/10 transition text-center"
+          >
             Contact Us
-          </button>
+          </a>
         </div>
       </main>
 
