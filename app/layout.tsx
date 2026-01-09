@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aura Dev | Engineering with Digital Aura",
-  description: "High-performance web applications and mobile experiences built with precision.",
+  title: "Aura Dev | Hani Zahran",
+  description: "Next Generation Web Development & Design built with precision.",
+  metadataBase: new URL("https://aura-dev.net"),
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",

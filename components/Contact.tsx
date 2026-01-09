@@ -24,7 +24,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Email Me</h4>
-                <p className="text-gray-400">YourEmail@example.com</p>
+                {/* Updated to your professional email */}
+                <p className="text-gray-400">contactus@aura-dev.net</p>
               </div>
             </div>
 
@@ -34,7 +35,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Instagram</h4>
-                <p className="text-gray-400">@aura.dev</p>
+                {/* Updated to your specific handle */}
+                <p className="text-gray-400">@aura.dev.net</p>
               </div>
             </div>
           </div>
@@ -45,7 +47,7 @@ const Contact = () => {
             method="POST"
             className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl space-y-4"
           >
-            {/* GO TO web3forms.com TO GET YOUR KEY AND PASTE IT BELOW */}
+            {/* Make sure to paste your key from web3forms.com here */}
             <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
