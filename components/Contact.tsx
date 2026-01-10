@@ -18,25 +18,35 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="space-y-8">
-            <div className="flex items-start gap-5 group">
+            {/* EMAIL SECTION - CLICKABLE */}
+            <a 
+              href="mailto:contactus@aura-dev.net" 
+              className="flex items-start gap-5 group cursor-pointer block transition-transform active:scale-95"
+            >
               <div className="p-4 rounded-2xl bg-white/5 border border-white/10 group-hover:border-cyan-400/50 transition-colors">
                 <Mail className="w-6 h-6 text-cyan-400" />
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Email Us</h4>
-                <p className="text-gray-400">contactus@aura-dev.net</p>
+                <p className="text-gray-400 group-hover:text-cyan-400 transition-colors">contactus@aura-dev.net</p>
               </div>
-            </div>
+            </a>
 
-            <div className="flex items-start gap-5 group">
+            {/* INSTAGRAM SECTION - CLICKABLE */}
+            <a 
+              href="https://www.instagram.com/aura.dev.official/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-start gap-5 group cursor-pointer block transition-transform active:scale-95"
+            >
               <div className="p-4 rounded-2xl bg-white/5 border border-white/10 group-hover:border-purple-500/50 transition-colors">
                 <Instagram className="w-6 h-6 text-purple-500" />
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Instagram</h4>
-                <p className="text-gray-400">@aura.dev.net</p>
+                <p className="text-gray-400 group-hover:text-purple-400 transition-colors">@aura.dev.official</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <form 
@@ -74,7 +84,7 @@ const Contact = () => {
                 <select 
                   name="service"
                   required
-                  defaultValue="" // Fixes the 'selected' attribute error
+                  defaultValue="" 
                   className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 focus:border-cyan-400 outline-none transition-all text-white appearance-none cursor-pointer"
                 >
                   <option value="" disabled className="bg-[#0a0a0a]">Select Service</option>
