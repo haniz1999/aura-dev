@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Aura Dev",
     images: [
       {
-        url: "/aura-banner.png", // Uses your project banner as the preview image
+        url: "/aura-banner2.png", // Uses your project banner as the preview image
         width: 1200,
         height: 630,
         alt: "Aura Dev Digital Engineering",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aura Dev | Hani Zahran",
     description: "Next Generation Web Development & Design built with precision.",
-    images: ["/aura-banner.png"],
+    images: ["/aura-banner2.png"],
   },
 };
 
