@@ -12,7 +12,7 @@ const Hero = ({ lang, setLang }: { lang: string; setLang: (val: string) => void 
       badge: "מקבלים פרויקטים חדשים ל-2026",
       titlePrefix: "",
       titleMain: "Digital Aura",
-      desc: "אנחנו בונים אפליקציות ומערכות ווב בביצועים גבוהים, איפה שקוד נקי פוגש עיצוב יוצא דופן.",
+      desc: "אנחנו בונים אפליקציות ואתרים בביצועים גבוהים, איפה שקוד נקי פוגש עיצוב יוצא דופן.",
       mainBtn: "לפרויקטים שלנו",
       secBtn: "צור קשר",
       nav: { services: "שירותים", work: "עבודות", contact: "צור קשר", btn: "בואו נבנה" },
