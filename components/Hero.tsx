@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
           <a href="#services" className="hover:text-cyan-400 transition">Services</a>
-          <a href="#work" className="hover:text-cyan-400 transition">Work</a>
+          <a href="#portfolio" className="hover:text-cyan-400 transition">Work</a>
           <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
         </div>
         <a 
@@ -47,7 +47,7 @@ const Hero = () => {
 
         <div className="flex flex-col md:flex-row gap-4">
           <a 
-            href="#work" 
+            href="#portfolio" 
             className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-xl font-bold shadow-lg shadow-cyan-500/20 hover:scale-105 transition text-center"
           >
             View Our Projects
